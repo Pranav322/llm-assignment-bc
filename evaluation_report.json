@@ -1,0 +1,15 @@
+{
+    "inputs": {
+        "user_query": "what is the cost of one circle of IVF/ICSI at your facility?",
+        "ai_response": "A complete [IVF](https://www.drmalpani.com/knowledge-center/articles/what-you-need-to-know-about-ivf) cycle at our clinic, including [ICSI](https://ww..."
+    },
+    "metrics": {
+        "latency_ms": 9000.0,
+        "cost_usd": 0.0002391,
+        "relevance": 0.718,
+        "grounding": 0.76,
+        "factual_accuracy": 0.8,
+        "hallucination_detected": true,
+        "hallucination_reason": "The RESPONSE mentions the cost of a complete IVF cycle as Rs 3,00,000 and medications as Rs 1,45,000, which are not mentioned in the CONTEXT. The CONTEXT does not provide any specific numeric values related to IVF costs."
+    }
+}
