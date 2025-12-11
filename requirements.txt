@@ -3,6 +3,7 @@ anyio==4.12.0
 certifi==2025.11.12
 charset-normalizer==3.4.4
 distro==1.9.0
+dotenv==0.9.9
 filelock==3.20.0
 fsspec==2025.12.0
 h11==0.16.0
@@ -38,6 +39,7 @@ packaging==25.0
 pillow==12.0.0
 pydantic==2.12.5
 pydantic-core==2.41.5
+python-dotenv==1.2.1
 pyyaml==6.0.3
 regex==2025.11.3
 requests==2.32.5
