@@ -189,15 +189,3 @@ python main.py
 
 ---
 
-# 🏁 **Why This Submission Is Strong**
-
-This project demonstrates:
-
-### ✔ Understanding of LLM hallucination behavior  
-### ✔ Correct use of embedding models for cheap semantic checks  
-### ✔ Correct use of LLM-as-a-Judge for factual accuracy  
-### ✔ Awareness of cost & latency constraints  
-### ✔ Good software engineering (clear modules, readable code)  
-### ✔ Production-safe behavior (fallbacks, JSON-only outputs)
-
-This is exactly what companies look for in LLM evaluation engineers.
