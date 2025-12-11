@@ -167,25 +167,50 @@ This demonstrates that the evaluator **correctly catches numeric contradictions*
 
 ---
 
-# ⚙️ **Installation**
+# ⚡ **Fast Setup with uv (Recommended)**
 
-```bash
-pip install -r requirements.txt
-```
+We recommend using [uv](https://github.com/astral-sh/uv) for significantly faster installation and execution.
 
-Create a `.env` file:
+1. **Install dependencies:**
+   ```bash
+   uv pip install -r requirements.txt
+   ```
 
-```
-OPENAI_API_KEY=your_key_here
-```
+2. **Configure Environment:**
+   Create a `.env` file:
+   ```
+   OPENAI_API_KEY=your_key_here
+   ```
+
+3. **Run the evaluator:**
+   ```bash
+   uv run python main.py
+   ```
 
 ---
 
-# ▶️ **Run the Evaluator**
+### **OR**
 
-```bash
-python main.py
-```
+---
+
+# ⚙️ **Standard Installation (pip)**
+
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Configure Environment:**
+   Create a `.env` file:
+   ```
+   OPENAI_API_KEY=your_key_here
+   ```
+
+3. **Run the evaluator:**
+   ```bash
+   python main.py
+   ```
+
 
 ---
 
